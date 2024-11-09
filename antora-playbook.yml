@@ -1,11 +1,11 @@
 site:
   title: "#help"
-  start_page: project-name::index.adoc
+  start_page: help-website::index.adoc
 content:
   sources:
   - url: .
     branches: HEAD
 ui:
   bundle:
-    url: https://github.com/ircnet-com/antora-ui-ircnet/archive/refs/tags/v1.0.zip
+    url: https://github.com/ircnet-com/antora-ui-ircnet/releases/download/latest/ui-bundle.zip
     snapshot: true
