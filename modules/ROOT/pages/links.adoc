@@ -1,0 +1,8 @@
+= Links
+
+* https://www.ircnet.com[www.ircnet.com]  - Website about IRCnet
+* https://www.ircnet.info[www.ircnet.info] - Realtime channel and server lists
+* https://www.irc.info/[www.irc.info] - Website about IRC in general
+* http://www.catb.org/~esr/faqs/smart-questions.html[How To Ask Questions The Smart Way]
+* xref:etiquette.adoc[IRC etiquette by MZL]
+* xref:alis.adoc[Alis]

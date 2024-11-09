@@ -1,0 +1,13 @@
+= Welcome to #help
+
+Please try your search engine of choice before asking a question on #help. See also our xref:faq.adoc[FAQ] and xref:rules.adoc[rules].
+
+{sp} +
+
+[TIP]
+====
+* http://www.ircnet.info/ - Server list, channel list, and I-line lookup
+* https://www.ircnet.com/ - General information
+* https://www.cloak.ircnet.io/ - IP cloaks
+====
+

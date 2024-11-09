@@ -1,0 +1,97 @@
+= Clients
+
+== Introduction
+
+An IRC client is a program you use to connect to IRC servers. You need to install a client on your computer to access IRCnet. Alternatively you can use a webchat right here in your web browser, but a real client offers a lot more features and usually works better.
+
+== Clients
+
+=== AmIRC - Amiga
+
+Homepage: http://www.vapor.com/amirc/
+
+=== BitchX - multiplatform
+
+Homepage: http://www.bitchx.org/
+
+See also: http://en.wikipedia.org/wiki/BitchX
+
+=== Dana - Microsoft Windows
+
+Dana is supposedly easy to use, it seems to be popular with the german crowd, although it is not only available in german. Their FAQ (a wiki) is however only in german (and pretty short too).
+
+Homepage: http://www.diebestenbits.de
+
+=== Gaim - multiplatform
+
+Gaim is now known as Pidgin (see below)
+
+"Gaim is a multi-protocol instant messaging (IM) client for Linux, BSD, MacOS X, and Windows." - from http://gaim.sourceforge.net/about.php
+
+It also supports IRC.
+
+Homepage: http://gaim.sourceforge.net/
+
+=== .IRC - Microsoft Windows
+
+".IRC is a Full Featured .NET IRC Client" - From http://www.joher.com/dotirc.shtml
+
+Homepage: http://www.joher.com/dotirc.shtml
+
+=== irssi - multiplatform
+
+Homepage: http://www.irssi.org See also: http://en.wikipedia.org/wiki/Irssi
+
+They also have the #irssi channel on IRCnet.
+
+===  jmIrc - Java (Mobile J2ME)
+
+"jmIrc is an Internet Relay Chat client meant for use with mobile phones supporting GPRS and MIDP 1.0 compliant Java programs." - From http://jmirc.sourceforge.net/faq.html
+
+Homepage: http://jmirc.sourceforge.net/
+
+=== Klient - Microsoft Windows
+
+"Klient is an IRC (Internet Relay Chat) application for Windows." - From http://www.klient.com/news.php
+
+Homepage: http://www.klient.com
+
+=== mIRC - Microsoft Windows
+
+mIRC is a very popular IRC client for Microsoft Windows.
+
+Homepage: http://www.mirc.com/ See also: http://en.wikipedia.org/wiki/MIRC
+
+There is also an unofficial #mIRC help channel on IRCnet, you can see their rules and FAQ at http://www.ircnet-mirc.org/index.html
+
+=== PhIRC - QNX4 and QNX6
+
+"PhIRC is a Full Featured Photon IRC Client for QNX6 and QNX4" - From http://www.joher.com/phirc.shtml
+
+Homepage: http://www.joher.com/phirc.shtml
+
+=== Pidgin - multiplatform
+
+Pidgin was formerly known as Gaim
+
+"Pidgin is a multi-protocol Instant Messaging client that allows you to use all of your IM accounts at once. Pidgin can work with: AIM, Bonjour, Gadu-Gadu, Google Talk, Groupwise, ICQ, IRC, MSN, QQ, SILC, SIMPLE, Sametime, XMPP, Yahoo!, and Zephyr." - From their homepage (edited to be brief).
+
+Homepage: http://pidgin.im/pidgin/home/
+
+=== Trillian - Microsoft Windows
+
+Trillian is an IM (Instant Messaging) program which among other protocols features IRC. There is both a Basic (free) and a Pro (not free) version available.
+
+Homepage: http://www.ceruleanstudios.com/
+
+=== WookieChat - Amiga
+
+"WookieChat allows you to connect to Internet Relay Chat networks (IRC) and chat with other users in a text medium in real-time. Some of the server groups are preconfigured to join an Amiga chat channel upon sucessful connection. Executables are provided for AmigaOS 3.x and 4.0. WookieChat is uncrippled SHAREWARE. If you like this piece of software, please register! Registration is NOT mandatory! No feature is disabled!" - From http://wookiechat.amigarevolution.com/wookiechat/index.html
+
+Homepage: http://wookiechat.amigarevolution.com/wookiechat/index.html
+
+=== XChat - multiplatform
+
+XChat is a multiplatform IRC client.
+
+Homepage: http://www.xchat.org/

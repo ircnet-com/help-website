@@ -1,0 +1,235 @@
+= IRC-etiquette
+:sectnums:
+
+-- how to behave in IRC and why
+
+You have probably been directed to this page because you have done something to annoy other IRC users or you're new to IRC. Do not be alarmed - this page is to help you learn better behavior. When you follow the manners explained here, you will gain friends and good reputation amongst other IRC users. In addition, you will eliminate the possibility of starting futile fights.
+
+== When you're idle, do it right.
+
+When people get bored on IRC, they usually announce that they are about to leave and leave the IRC program (client) open. There are two ways to do this, wrong and right.
+
+_Away nicks_ are the worst possible option. The idea is to change your nick so that it shows it's you and that you're away.
+
+----
+*** idiot is now known as idio|Away
+*** idio|Away is now known as idio|WC
+----
+
+The downsides are obvious:
+
+* You can't be found with your real nick. In case your friend isn't on the same channel, he won't know your nick, nor that you are possibly in the toilet, in the school or somewhere else.
+* Even those who aren't interested at all will get an announcement of you leaving and thus they have to change channel windows in order to see you or someone else going for a pizza or to watch the telly.
+* Real away messages are transfered between servers only when needed. Your nick change always creates unnecessary data transfer. This means you will create spam.
+* You don't keep your own nick reserved while you're away and someone may get it, unintentionally or on purpose.
+
+The automatic _public aways_ used by several IRC scripts are a sure way to express to others that you're away. For example:
+
+----
+*** idiot is away [REASON: smoke] [MSG LOG: on] [Pager: on]
+*** idiot has returned [from: smoke] [was gone: 0h 04min 45sec] [Left 17.8.2008 13:37]
+----
+
+As you might have guessed, this isn't good either because:
+
+* You are too flashy about being away. Most of the people simply do not care at all about this information.
+* Most of the scripts add ugly colours, bolds and such to their away messages. A plain `/me is going away`. wouldn't be as bad, but generally using actions (`/me`, `/action`) too much, several times per minute, is considered as not good behaviour.
+* You mess up the possible chat going on the channel.
+
+The right way to tell others that you're away is to use the command `/away`. When Peter Ircuser leaves his computer for sleep, he types `/away Sleeping`. Later on, Peter's friend has something to say to Peter. Peters friend types `/whois ircuser ircuser` (yes, you have to write the nick twice) and gets an answer like this:
+
+----
+*** ircuser is ircuser@ircusers.computer.com (Peter IRCuser)
+*** on channels: @#irc @#example @#rolemodel
+*** Server: irc.song.fi (Song Networks, Finland)
+*** away: Sleeping.
+*** has been idle 3h 32min 23sec
+*** End of whois
+----
+
+Expert hint!
+In case your IRC client does not automatically do `/whois Nick Nick` by writing `/wii Nick`, you can do an alias for that. Simply enter the this text to your IRC client and press enter:
+
+----
+/alias wii whois $0 $0
+----
+
+It should work.
+
+Now Peter's friend realizes that Peter isn't online right now and apparently hasn't been online for over three hours. Therefore he sends a private message to Peter:
+
+----
+/msg ircuser Oy, mate! I've got to chat with ya. Tell me when yer awake, ok?
+----
+
+When Peter is back, he types `/away` without any other parameters to remove his away status. Peter will read his messages right away when he wakes up in the morning and receives all the messages and hilights sent to him. If someone does a `/whois ircuser` after this, he/she will see this:
+
+----
+*** ircuser is ircuser@ircusers.computer.com (Peter Ircuser)
+*** on channels: @#irc @#example @#rolemodel
+*** Server: irc.song.fi (Song Networks, Finland)
+*** has been idle 0h 0min 17sec
+*** End of whois
+----
+
+In case the users are on separate IRC servers, you have to give the nick two times to the `/whois` in order to see idle time and reason. Otherwise, the idle time isn't shown and the reason will be just "Gone". Many IRC clients have the alias `/wii Nick`, which will do the `/whois Nick Nick` automatically.
+
+== Don't flood.
+
+Flooding is writing text rapidly on several new lines. There's at least two types of flooding. The first way is to just send the same line to the channel:
+
+----
+<idiot> Sex!
+<idiot> Sex!
+<idiot> Sex!
+<idiot> Sex!
+<idiot> Sex!
+----
+
+I assume everyone did know already that idiot has a gender? Just in case, it certainly became painfully clear.
+
+The other way is to split a perfectly good one line message over several lines:
+
+----
+<idiot> ill go out
+<idiot> gonna get
+<idiot> some pizza
+<idiot> ill drive there
+<idiot> hmm i wonder when ill be back
+<idiot> perhaps around eight
+<idiot> yeah eight
+<idiot> ill go
+<idiot> bye
+<idiot> =)
+----
+
+The disruption is obvious. Once again, everyone needs to change window every time new lines come in. A much cleaner way would be to say:
+
+----
+<ircuser> I'm going out to fetch some pizza. I'll propably be back around at eight. :)
+----
+
+This way, the message is clear. Also, avoid posting messages to the channel which interest nobody but yourself.
+
+== Don't use annoying scripts.
+
+----
+*** idiot
+[System: Windows XP sp2 build 7374]
+[Uptime: 13h 37min]
+[Graphics card: K-Force MMX 253CXVF Resolution: 1600x1200]
+[CPU: 1700MHz, 64 bit (usage at 40%)
+[Memory: 1024] [Icons at Desktop: 27]
+[Hard drives: (C: 1T, free space 20.6G) (D: 2T, free space 370.3G)]
+-X- [3l1tyz0rXz-sCr1p7 1.4b] -X-
+----
+
+I trust that this is a familiar display to everyone. Most of the people seeing this message really don't give a damn. To further increase the annoyance, most of these messages sent by scripts are stuffed with colours, bolds, or even more.
+
+In their own category are the "now playing" scripts.
+
+----
+*** idiot <- Listening To: [EmoPop - EmoPOP.mp3]
+[kbps: 328]
+[KHz: 44,1]
+[At: 2:45/6:26]
+----
+
+No one is interested in the length, bitrate or suchlike. Most of the people using these scripts don't even know the meaning of them. There are more subtle ways to present this information:
+
+----
+<ircuser> I'm now listening to The Band - The Song. How do you like it?
+----
+
+== No colours or other decorations.
+
+Colours, bold, reverse video, etc. do not show right in every IRC clients. Most people consider them annoying. Also, shouting, caps (WRITING IN UPPERCASE) is considered as a very annoying thing.
+
+WRITING IN UPPER CASE means that you yell. You don't yell at work, at home, downtown, in a pub, or in any other public place, do you?
+
+== Behave and write as you would with your mother.
+
+----
+<idiot> shit that was like fucking great when that dirty old geezer ran like hell, god damn it!
+----
+
+Most people with brains should know that use of this of kind of language is particularly useless and, at best, annoying.
+
+Commonly, people think that swearing is:
+
+* More manly.
+* Showing that you're really serious about the business at hand. (Cross me and I'll kick you in the nuts!)
+* Making the matter more understandable.
+* A way to look intelligent.
+
+but in reality:
+
+* It's obvious that the text is written by an adolescent. Never take him seriously.
+* It makes the text difficult to read and longer than it should be.
+* Frequent use of swearing reduces the impact of any future comments.
+Adding a lot of exclamation or question marks does not make it any more understandable.
+
+----
+<idiot> sex plz gief?!??!?!!!?!?!?!?!
+----
+
+As you can see, adding exclamation and question marks only makes the text worse and more unreadable.
+
+Also, give some thought to how many periods you would use after a phrase:
+
+----
+<ircuser> Shall we do it today?
+<idiot> yeah...
+<ircuser> When can I come and get you?
+<idiot> after three... i guess...
+<ircuser> Any chance before three? Otherwise I'll get way too busy.
+<idiot> no... ive gotta clean... my room... and stuff...
+----
+
+A few simple rules about behavior:
+
+* Never tell others stuff you couldn't tell them face to face.
+* There is no good reason to say bad things about another person.
+* Always act better than the other one does. That makes you better. Beating them in foul language doesn't.
+
+Correct grammar makes your text more understandable and more convenient to read:
+
+----
+<idiot> fuk idot sit head!!1 dont complin lancuac errs all time siht!!!1
+----
+
+Overused smileys aren't nice either:
+
+----
+<ircuser> (Imagine a really nice and laughable joke here.)
+<idiot> :D
+<idiot> ;DDDDDDDDDD
+<idiot> LOL LOL!! :DDD
+<idiot> i totally fell down :D:D:D!!!11
+<idiot> ;D
+<idiot> XDDDD
+<idiot> =)
+----
+
+Everyone should realize that you're laughing at the joke from the first smiley, right?
+
+== Use a clear nick.
+A nick should be chosen with the following criteria:
+
+* Easily read.
+* Easily spelled.
+* Easily written.
+* Unique, one of a kind.
+* Contains only letters.
+* Capitalization happens for a reason. (For example JohnDoe, but not `IlOvEyOuAlOt`)
+
+`\_\^-n1cK-^_\` is not a good nick. In case someone uses the same nick as you do, you can just add an "_" (underscore) after it, not in front - this way messaging you is not too hard on certain IRC clients.
+
+:sectnums!:
+
+== Post Scriptum
+Modernization, alterations, translations and stuff by MZL.
+
+Proofreading by Baljem. I owe you one, mate.
+
+Last updated 25th September 2009. Thanks to Antarez for noticing an error I hadn't.

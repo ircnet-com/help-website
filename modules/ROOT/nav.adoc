@@ -1,0 +1,8 @@
+* xref:index.adoc[Welcome]
+* xref:faq.adoc[]
+* xref:channels.adoc[]
+* xref:clients.adoc[]
+* xref:webchat.adoc[]
+* xref:rules.adoc[]
+* xref:crew.adoc[]
+* xref:links.adoc[]

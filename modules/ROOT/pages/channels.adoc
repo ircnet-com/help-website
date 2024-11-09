@@ -1,0 +1,39 @@
+= Channels
+
+== Help channels
+* #aiuto - Italian *dead?*
+* #help - English
+* #help.it - Italian *dead?*
+* #help.nl - Dutch *dead?*
+* #hilfe - German *dead?*
+* #pomoc - Polish
+
+== General IRC
+* #ircnet
+* #irchelp - IRC help channel - http://irchelp.org/
+
+== IRC clients
+* #BitchX
+* #irssi
+* #mIRC
+* #XChat *dead?*
+
+== IRC robots
+* #Eggdrop
+* #Egghelp *dead?*
+
+== Other topics
+* #coders - Programming related
+* #linux
+* #windows - Microsoft Windows related things
+
+== Special topics
+There is an extensive (but incomplete) IRCnet channel list at https://www.ircnet.info/channels
+
+See our xref:faq.adoc[FAQ] about `/LIST` and xref:alis.adoc[Alis].
+
+If you are looking for the channel of a project, as for example found on sourceforge.net and can't find such channel on IRCnet, try looking for #nameoftheproject on the irc://irc.freenode.net or irc://irc.oftc.net IRC servers.
+
+There is also a big gaming community on irc://irc.quakenet.org.
+
+Not a channel or a network, but http://irc.netsplit.de/ lists networks, servers and channels, worth a look. The same goes for http://searchirc.com (IRCnet section at http://searchirc.com/network/IRCNet)

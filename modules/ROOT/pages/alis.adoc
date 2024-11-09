@@ -1,0 +1,76 @@
+= Alis
+
+== What is Alis?
+
+Alis (Advanced List Service) is the service IRCnet uses to allow you to search for channels. It is a replacement for the `/LIST` IRC command.
+
+See the xref:faq.adoc[FAQ] for information on `LIST` and why Alis is used instead.
+
+== Quickstart
+
+(xref:clients.adoc[Trillian] and xref:clients.adoc[Gaim] users should take special care that they read the _How does Alis work?_ -section below too.)
+
+Lists all channels with the channelname containing "help":
+
+----
+/SQUERY ALIS LIST *help*
+----
+
+Lists all channels with a minimum of 10 users and the word "help" in the topic:
+
+----
+/SQUERY ALIS LIST * -min 10 -topic help
+----
+
+See also xref:faq.adoc[FAQ] for links to web-based channel listings.
+
+== How does Alis work?
+
+----
+/SQUERY ALIS command arguments
+----
+
+On some IRC clients, SQUERY does not work that easilly by default, then you have to use (notice the colon):
+
+----
+/SQUERY ALIS :command arguments
+----
+
+or even (known to work in xref:clients.adoc[Trillian] and xref:clients.adoc[Gaim]):
+
+----
+/QUOTE SQUERY ALIS :command arguments
+----
+
+You can get some help on alis with the following command:
+
+----
+/SQUERY ALIS HELP
+----
+
+A particular usefull command is:
+
+----
+/SQUERY ALIS HELP EXAMPLES
+----
+
+For a full list of command arguments for the alis LIST command:
+
+----
+/SQUERY ALIS HELP LIST
+----
+
+== Semi-technical notes
+Alis honours the secret/private ( s and p) channels, we only get to see the visible ones.
+
+As it is right now it is impossible to list more than the first 60 channels that matches a given search (This is fixed in a more recent beta-version, but it is not used on IRCnet.)
+
+There is also a slight issue with case-sensitivity, you can not match against uppercase text in a topic.
+
+IRCnet uses Alis version 2.4.
+
+== Download
+You can find the Alis service software at http://aliserv.sourceforge.net/
+
+(You do not need to download anything if you just want to use the alis service to list IRCnet channels for you, the service runs on irc servers to provide the list to users)
+

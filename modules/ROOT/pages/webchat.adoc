@@ -1,0 +1,9 @@
+= Webchat
+
+Webchats allowing access to IRCnet via a web-browser:
+
+* https://www.ircnet.chat/ - IRCnet webchat (The Lounge)
+* https://webchat.ircnet.net/ - IRCnet webchat (qwebirc)
+* http://irc.tu-ilmenau.de/web-irc/ - Germany only (standard CGI:IRC or a Javabased one)
+
+If you want a dedicated program with more features, see our xref:clients.adoc[IRC clients] page.

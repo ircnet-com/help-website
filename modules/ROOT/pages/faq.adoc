@@ -1,0 +1,133 @@
+= FAQ
+
+== Can someone help me?
+
+If you want us to help you, you have to ask your question! We can not read minds. If you don't get an answer, that might be because we don't know or there is nobody at the keyboard. Please be patient and perhaps use the time for searching one more time on your preferred search engine.
+
+== How can I register my nickname or channel?
+
+You can not, there is no nickname or channel registration system on IRCnet.
+
+Nicknames are temporarilly owned while they are in use and can be picked up by anyone if they are not in use.
+
+Channels are created when someone joins them and cease to exist when the last person leaves them. As with nicknames, anyone can pick up a non-used channel.
+
+See http://www.irchelp.org/irchelp/networks/noserv.html for more information on why this is so.
+
+== How do I get ops?
+
+When creating a new channel (/join #channelname) you get ops (except if your connection is restricted (usermode +r)).
+
+== How do I get ops in an opless channel then?
+
+Unless the channel is #help there is nothing we can do.
+
+Bans are set by channel operators and can only be removed by channel operators. Usually bans are set for a reason. Even if no reason is required, channels are run by its operators and they are free to do as they please. If you think it was unfair, the only thing you can do is to complain to the operator who set the ban or another operator from the same channel - but as said, bans are set for a reason, so do not expect much. Some people get less happy about you if you complain.
+
+Also note that some channels have bans on whole countries, ISPs, users on certain IRC-servers or other wide-ranging bans and you might be running into that. If you need to see which bans are set on a channel you can issue the command "/MODE #channel +b" You do not need to be on the channel for this to work.
+
+Bans are usually removed after a while. It might take hours, days or weeks but some bans are permanent. We can not even begin to guess how long it will be before your ban is removed.
+
+We can not help you get around bans. We respect other channel operators' freedom to run their channels as they see fit.
+
+If you are banned from #help you will still have to ask politely to get the ban removed - a request we very likely will not grant.
+
+== What is a restricted connection (usermode +r)?
+
+This means you can not have op status or change your nick (another op can give you op, but you will not be able to use it for anything. Servers will not even bother to op you, even when you create a new channel).
+
+Please be aware that it is not always possible to solve this problem, even if you fix all the problems mentioned below. So if it still does not work you will have to live with the restricted connection.
+
+=== Common reasons to be +r
+
+==== No reverse DNS (or no DNS at all) configured
+
+Many servers require that your IP address resolves back to the hostname it claims to be. If you show up with a purely numeric hostname in your whois (see /whois <yournick>) then this might be your problem.
+
+Solution: Most people are not in a position to fix this problem as it is a configuration handled by their ISP. It is still suggested that you try the following solutions (use a local server and enable identd) if you have this problem. If you are still restricted after that, then there is probably no way for you to solve the problem and you will have to be content with the restricted connection (you can still chat though).
+
+==== Not using a local server
+
+It can occur if you connect to a server too far from you - Most IRCnet servers only allow connections from the same country as they are in.
+
+Solution: Connect to another server physically closer to you (you can find a list of servers at https://www.ircnet.info/servers try to find one in your country).
+
+==== Missing identd
+
+If the server requires identd and you do not have it running. (Someone should explain what identd is... :)). If your username in whois (/whois <yournick>) comes up with a "-" infront of it then you do not have identd running (Or you have not configured the correct forwarding of port 113 on your router). A "+" infront of your username means that you do have identd running, if that is the case you need to look at the above problems/solutions instead.
+
+Solution: You need to enable identd (It is an option in mIRC, and a separate service on UNIX-like hosts) and make sure that the server can reach port 113 on your PC (if behind a router and/or firewall).
+
+==== Last resort
+
+As not all countries have local servers or even servers close by, the last resort would be to try one of the following servers. They are the servers which are (currently) most open for access on IRCnet. They will allow connections from many of the less commonly seen countries.
+
+* ircnet.choopa.net
+* irc1.us.open-ircnet.net
+* ircnet.eversible.com
+
+==== I am using T-Dialin (T-Online), why am I being restricted?
+
+This is almost definitely an ident issue, please read http://yauw.de/irc/ident-FAQ.shtml (in German) on how to enable ident and for a (very short, but with a link to indepth information) description of the issue read http://irc.belwue.de/faq.html#ident-tonline (also in German). You will still need to use a local/German server though.
+
+== What is reop mode (channelmode +R)?
+
+Ops can set the channelmode +R (capital R, case sensitive) which means the server will reop one user on the channel matching one of the hostmasks in the reop list. It is set very much like bans are:
+
+ MODE #channel +R hostmask
+
+Notice that not all clients like the +R mode yet, so will require you to do the following:
+
+ /QUOTE MODE #channel +R hostmask
+
+To remove a reop mask:
+ /MODE #channel -R hostmask
+
+To show current reop list:
+
+ /MODE #channel +R
+
+An example hostmask for `guest!~user@dial-up_24.example.com` would be `*!*user@*.example.com` - Feel free to ask in #help if you need to figure out a good hostmask to set for yourself. Remember, everyone who match the hostmask has a chance at getting ops, and everyone on a channel can see the +R list, so you should set the hostmasks as prescise as you can. The command for setting this mask would then be:
+
+ /MODE #channel +R *!*user@*.example.com
+
+Now you know how to set, remove and list reop-modes, you need to know how it works. When the channel goes opless, the server will reop someone in the channel matching a hostmask in the reop-list. This is not done right away, you will have to wait up to 90 minutes (yes, that's one and a half hour) before anything happens. Also note that all modes, including +R, are unset if the channel ever gets empty.
+
+== Channel list
+
+=== Why do I get disconnected from IRCnet when I use the /list command?
+
+"LIST output too large, truncated"?
+
+"Usage of /list for listing all channels is deprecated. Please use "/squery alis help" instead."?
+
+Please note that IRCnet will now give a partial list and end it with a warning that /LIST is deprecated, so you will no longer be disconnected, but you will not get the full channel list either.
+The list would be too big to be handled by your client. Go to https://www.ircnet.info/channels for a channel search or read about IRCnet's channel listing service xref:alis.adoc[Alis].
+
+=== How do I search for and list channels?
+
+Use xref:alis.adoc[Alis]. Alternatively, have a look at our xref:channels.adoc[channel list].
+
+=== What is and how does Alis work?
+
+Read (almost) all about xref:alis.adoc[Alis here].
+
+== Why does DCC Send not work (but Receive works)?
+
+f you use mIRC v6.17 or newer you can try using passive DCC (This requires the recieving end to also support passive DCC (and probably to not be behind NAT too i guess - mh)), it can be enabled with `/DCC PASSIVE ON` and disabled again with `/DCC PASSIVE OFF`
+
+(xchat 2.0.7+ and irssi (at least 0.8.11, possibly older too) supports passive DCC, but they handle it differently, please read /HELP DCC )
+
+Please read this very good explanation on why this is and (/or skip directly to) a workaround at http://jdc.parodius.com/irc/dcc_nat.html
+
+If you do not use the router mentioned in the guide you can check http://www.portforward.com/english/routers/port_forwarding/routerindex.htm for your specific router (It also offers information on fixing portforward related issues with many other programs, not just IRC clients).
+
+For DCC troubleshooting on mIRC, se also: http://www.mircscripts.org/showdoc.php?type=tutorial&id=2355
+
+== What are IRC operators and where can I find one?
+
+IRC operators are persons that control the servers and make sure the network keeps running. They can do that by reconnecting IRC servers to the network and keeping certain people out of the network because of safety issues or other network-related issues. IRC operators aren't IRC 'cops' as many refer them as. They don't help in personal or channel-related problems that you might have. You can normally find them on #eu-opers and #countrycode-opers (see column A2 at ftp://ftp.ripe.net/iso3166-countrycodes.txt for countrycodes, eg. #nl-opers for dutch opers).
+
+== How do I forward a port?
+
+There is a very good step-by-step guide for a lot of different brands of routers at http://www.portforward.com/english/routers/port_forwarding/routerindex.htm Please follow it to the letter (messing up here can mean you will be without internet-access). If in doubt, please read the router manual or contact the manufacturer..

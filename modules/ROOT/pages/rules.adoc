@@ -1,0 +1,54 @@
+= Rules
+
+== Speak English
+
+The channel is English only.
+
+== Ask the question
+
+We can not read your mind, ask your question and be as short and precise as you can. Include as much information as needed, but not more. Just shouting "Help me!" or asking "Can I ask?" will most likely get you no response.
+
+== Have Patience
+We are not always monitoring the channel. if nobody is around, try later. Another reason for not getting an answer can be that nobody knows the answer.
+
+== Do not repeat
+
+Repeating your question several times will not increase your chances of getting a reply, at least not a positive one. If you repeat, you may be removed from the channel.
+
+== Do not SHOUT
+
+Shouting (WRITING IN ALL CAPITAL LETTERS) is very annoying and will not get you any positive attention.
+Do not message ops or other users
+If you have a question, ask it on the channel. Asking in private will most likely be ignored as it is considered rude just as approaching random people on the street. Asking on the channel also gives you a slight protection against someone giving you wrong or misleading information, be it on purpose or accidental.
+
+== Avoid using colors
+
+Not everyone see what you see, colors can be very distracting, please only use them if they are needed.
+No false information
+You are encouraged to help others if you can, but deliberately giving false information will get you banned.
+No automated messages
+This includes autogreetings, spamming, mp3 advertisers and public away messages
+
+== No harassing
+
+Do not harass other people on the channel. Doing this will probably get you kicked out of the channel in no time. Also, messaging random people is considered harassing.
+
+== No op-begging
+
+This should be obvious, but op-begging gets you nowhere.
+
+== No bot/script help
+
+Most bots and scripting languages have dedicated channels or forums, as a general rule we do not help with these.
+
+== No warez help
+
+We do not help with finding/downloading illegal software, movies, torrents or anything somesuch.
+
+== Only IRCnet questions
+
+We can not tell you how other networks and their services work - or why they do not work.
+
+== More on IRC etiquette
+
+To learn more about how to behave on IRC and why, go read http://mzl.fi/irc/
