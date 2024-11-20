@@ -1,6 +1,7 @@
 site:
   title: "#help"
   start_page: help-website::index.adoc
+  url: https://www.ircnethelp.org
 content:
   sources:
   - url: .
