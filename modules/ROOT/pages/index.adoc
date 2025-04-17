@@ -8,6 +8,6 @@ Please try your search engine of choice before asking a question on #help. See a
 ====
 * http://www.ircnet.info/ - Server list, channel list, and I-line lookup
 * https://www.ircnet.com/ - General information
-* https://www.cloak.ircnet.io/ - IP cloaks
+* https://www.ircnet.com/sasl - IP cloaks
 ====
 
