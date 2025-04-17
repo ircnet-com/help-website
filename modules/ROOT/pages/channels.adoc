@@ -1,11 +1,8 @@
 = Channels
 
 == Help channels
-* #aiuto - Italian *dead?*
 * #help - English
-* #help.it - Italian *dead?*
-* #help.nl - Dutch *dead?*
-* #hilfe - German *dead?*
+* #irc.it - Italian
 * #pomoc - Polish
 
 == General IRC
@@ -13,17 +10,14 @@
 * #irchelp - IRC help channel - http://irchelp.org/
 
 == IRC clients
-* #BitchX
 * #irssi
 * #mIRC
-* #XChat *dead?*
 
 == IRC robots
-* #Eggdrop
-* #Egghelp *dead?*
+* #psotnic
+* #eggdrop
 
 == Other topics
-* #coders - Programming related
 * #linux
 * #windows - Microsoft Windows related things
 
