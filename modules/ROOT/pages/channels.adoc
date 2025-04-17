@@ -2,20 +2,21 @@
 
 == Help channels
 * #help - English
-* #irc.it - Italian
+* #ircnet - English
+* https://www.irc.it[#irc.it] - Italian
 * #pomoc - Polish
 
 == General IRC
-* #ircnet
-* #irchelp - IRC help channel - http://irchelp.org/
+* #irc
+* http://irchelp.org[#irchelp] - IRC help channel
 
 == IRC clients
-* #irssi
-* #mIRC
+* https://irssi.org[#irssi]
+* https://www.mirc.com[#mIRC]
 
 == IRC robots
-* #psotnic
-* #eggdrop
+* https://www.psotnic.com[#psotnic]
+* https://www.eggheads.org[#eggdrop]
 
 == Other topics
 * #linux
