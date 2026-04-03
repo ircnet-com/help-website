@@ -3,16 +3,15 @@
 == Current regulars
 
 * Antarez (op)
-* Aprogas (op)
-* Azul (op)
 * blowfish (op)
-* Laagje (op)
 * patrick (op)
 * Timoteus (op)
 
 == Retired regulars
 
+* Aprogas (op)
 * atl
+* Azul (op)
 * bojster
 * cenhinen (op)
 * CosmicRay (op)
@@ -23,6 +22,7 @@
 * geck0 (op)
 * hl
 * jamx
+* Laagje (op)
 * mids (op)
 * mh (op)
 * mofo
