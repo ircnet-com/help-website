@@ -6,8 +6,8 @@ Please try your search engine of choice before asking a question on #help. See a
 
 [TIP]
 ====
-* http://www.ircnet.info/ - Server list, channel list, and I-line lookup
-* https://www.ircnet.com/ - General information
+* http://www.ircnet.info - Server list, channel list, and I-line lookup
+* https://www.ircnet.com - General information
 * https://www.ircnet.com/sasl - IP cloaks
 ====
 
